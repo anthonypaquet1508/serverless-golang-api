@@ -5,6 +5,7 @@ import (
 	"errors"
 
 	"github.com/anthonypaquet1508/serverless-golang-api/pkg/validators"
+
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"

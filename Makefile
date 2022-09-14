@@ -1,6 +1,6 @@
 
 build:
-	env GOARCH=amd64 GOOS=linux go build -ldflags="-s -w" -o bin/usersApi cmd/main.go
+	env CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -ldflags="-s -w" -o bin/usersApi cmd/main.go
 
 .PHONY: clean
 clean:

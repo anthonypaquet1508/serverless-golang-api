@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/anthonypaquet1508/serverless-golang-api/pkg/user"
+
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"

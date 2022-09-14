@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 
 	"github.com/anthonypaquet1508/serverless-golang-api/pkg/handlers"
@@ -18,10 +19,11 @@ var (
 )
 
 func main() {
+	fmt.Printf("test")
 	region := os.Getenv("AWS_REGION")
 	awsSession, err := session.NewSession(&aws.Config{
 		Region: aws.String(region)})
-
+	fmt.Println(awsSession)
 	if err != nil {
 		return
 	}
