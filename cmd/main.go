@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/anthonypaquet1508/serverless-golang-crud/pkg/handlers"
+	"github.com/anthonypaquet1508/serverless-golang-api/pkg/handlers"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
